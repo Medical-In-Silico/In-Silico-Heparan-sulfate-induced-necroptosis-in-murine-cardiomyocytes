@@ -1,5 +1,5 @@
-function [ ydot ] = nekroptosis_odesystem(t, y, x, hs)
-%% Basic Model of Nekrose
+function [ ydot ] = necroptosis_odesystem(t, y, x, hs)
+%% model of necroptosis
 % Inhibition form: s * s / (w2*s + w1*y)
 % steady-state: linear
 % HS: prescribed function
