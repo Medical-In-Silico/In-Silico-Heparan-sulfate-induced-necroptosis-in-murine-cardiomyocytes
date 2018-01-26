@@ -9,8 +9,7 @@ function [ ydot ] = necroptosis_odesystem(t, y, x, hs)
 % kinetics:8
 % arcweigts: 16
 % inhibition: 4
-%% best results
-% none
+
 x(x <0) = 0;
 k = x(1:8);
 w = x(9:24);
